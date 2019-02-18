@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/*
+$gloabl-font:
+$header-font-family:, $paragraph-font-family:, $topbar-link-font-family: 'myfont';
+*/
+
+$font-family: "futura-pt", Helvetica, Arial, sans-serif;
+
+$primary-color-light:  #d5cfe1;
+$primary-color-dark:   #a09abc;
+
+.fill-space {
+  flex: 1 1 auto;
+}
